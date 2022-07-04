@@ -10,7 +10,15 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>gateway</module>
-        <module>sunny-user</module>
+        <module>infrastructure</module>
+        <module>services/sunny-user</module>
+        <module>services/sunny-order</module>
+        <module>services/sunny-product</module>
+        <module>services/sunny-payment</module>
+        <module>services/sunny-message</module>
+        <module>services/sunny-content</module>
+        <module>services/sunny-system</module>
+        <module>services/sunny-integral</module>
     </modules>
 
     <properties>
