@@ -3,8 +3,9 @@ server:
 spring:
   cloud:
     gateway:
+      enabled: true
       routes:
-        - id: nameRoot
+        - id: baidu
           uri: https://baidu.com
           predicates:
             - Path=/baidu/**
