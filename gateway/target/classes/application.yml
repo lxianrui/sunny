@@ -11,3 +11,9 @@ spring:
             - Path=/baidu/**
           filters:
             - StripPrefix=1
+    nacos:
+      username: nacos
+      password: nacos
+      server-addr: localhost:8848
+      discovery:
+        enabled: true
